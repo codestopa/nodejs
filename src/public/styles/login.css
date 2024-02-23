@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(53, 53, 53);
+}
+
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(45deg, #3385ad, #66ccff);
+    height: 93vh;
+    justify-content: center;
+    align-items: center;
+}
+.texto{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 70px;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    background-image: linear-gradient(45deg, #66ccff, #3385ad);
+    align-items: center;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 90%;
+    background-color: #66ccff4f;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs {
+    border-radius: 5px;
+    border: none;
+    width: 90%;
+    height: 40px;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+.boton {
+    margin-top: 20px;
+    border: none;
+    background-image: linear-gradient(45deg, #6696ff, #2f71a7);
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    font-weight: bolder;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    transition: transform 0.3s ease;
+}
+
+.boton:hover {
+    transform: scale(1.05);
+}
